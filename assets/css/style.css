@@ -1,3 +1,9 @@
+/* Univeral selector for setting fonts */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  
+  }
+
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form */
 form.form-example {
     display: table;
@@ -14,4 +20,40 @@ label, input {
 
 label {
     padding-right: 10px;
+}
+
+header {
+    background-color: aqua;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    background-color: aquamarine;
+    top: 130px;
+    position: relative;
+    z-index: 0;
+}
+
+#student-image {
+    margin: 10px;
+}
+
+nav {
+    background-color: palevioletred;
+}
+
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+li {
+    display: inline;
+    margin: 10px;
 }

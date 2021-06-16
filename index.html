@@ -8,13 +8,22 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <h1>Student Landing Page</h1>
+        <nav>
+            <ul >
+                <li>Email: <a href="#">someplace@gmail.com</a></li>
+                <li>GitHub: <a href="#">sampleName</a></li>
+                <li>Portfolio: <a href="#">coming soon</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <figure>
-            <img src="./assets/images/image-1.jpg" alt="placeholder image with text reading 200 width 200 height"/>
+            <img id="student-image" src="./assets/images/image-1.jpg" alt="placeholder image with text reading 200 width 200 height"/>
             <figcaption>Student Image</figcaption>
           </figure>
+          <h2>Contact us with this form</h2>
           <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form -->
           <form action="" method="get" class="form-example">
             <div class="form-example">
@@ -26,7 +35,7 @@
               <input type="email" name="email" id="email" required>
             </div>
             <div class="form-example">
-              <input type="submit" value="Subscribe!">
+              <input type="submit" value="Send">
             </div>
           </form>
           
