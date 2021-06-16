@@ -57,3 +57,10 @@ li {
     display: inline;
     margin: 10px;
 }
+
+footer {
+    background-color: aquamarine;
+    top: 130px;
+    position: relative;
+    z-index: 1;
+}
